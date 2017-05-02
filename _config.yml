@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "kbenoit"
 facebook:
   username               :
   app_id                 :
@@ -100,7 +100,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "kbenoit"
   vine             :
   weibo            :
   xing             :
@@ -244,3 +244,28 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _cv
+  - scope:
+      path: ""
+      type: cv
+    values:
+      layout: single
+      author_profile: true
+      share: true
+
+
+## collections
+collections:
+  cv:
+    output: true
+    permalink: /:collection/:path/
+  pages:
+    output: true
+    permalink: /:path/

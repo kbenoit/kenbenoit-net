@@ -1,9 +1,6 @@
 ---
 title: "Brief Bio"
 modified: 2017-05-02
-
-layout: single
-author_profile: true
 ---
 
 

@@ -2,10 +2,12 @@
 main:
   - title: "Posts"
     url: /posts/
-  - title: "Links"
-    url: /pages/
-  - title: "Bio"
-    url: /pages/bio/
+  - title: "Research Associates"
+    url: /research-associates/
+  - title: "Brief Bio"
+    url: /bio/
+  - title: "C.V."
+    url: /cv/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
