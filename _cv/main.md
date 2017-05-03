@@ -5,7 +5,7 @@ permalink: /cv/
 author_profile: false
 ---
 
-[To download my C.V. in .pdf format, click here.](http://kenbenoit.net/pdfs/KenBenoitCV.pdf)
+[To download my C.V. in .pdf format, click here.](/assets/files/KenBenoitCV.pdf)
 
 ### C.V. Menu
 

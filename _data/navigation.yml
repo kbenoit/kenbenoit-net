@@ -1,13 +1,13 @@
 # main links
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Research Associates"
-    url: /research-associates/
   - title: "Brief Bio"
     url: /bio/
   - title: "C.V."
     url: /cv/
+  - title: "Posts"
+    url: /posts/
+  - title: "Research Associates"
+    url: /research-associates/
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
