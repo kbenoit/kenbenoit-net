@@ -251,6 +251,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      post_pagination: false
   # _cv
   - scope:
       path: ""
@@ -258,7 +259,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: false
+      comments: false
+      post_pagination: false
 
 
 ## collections
