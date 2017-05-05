@@ -239,11 +239,13 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
       read_time: true
-      comments: # true
-      share: true
-      related: true
+      author_profile: false
+      share: false
+      comments: true
+      sidebar:
+        nav: "posts"
+      post_pagination: true
   # _pages
   - scope:
       path: ""
@@ -251,7 +253,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      post_pagination: false
   # _cv
   - scope:
       path: ""
@@ -271,3 +272,6 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  posts:
+    output: true
+    permalink: /:collection/:path/
