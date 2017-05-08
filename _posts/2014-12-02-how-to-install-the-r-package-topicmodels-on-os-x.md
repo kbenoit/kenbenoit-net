@@ -13,19 +13,19 @@ Many people have reported problems when attempting to install the R package \`to
 
 Here is the solution that worked for me:
 
-  1. Install the free [XCode](https://macappsto.re/gb/Bk9QD.m) from the App Store. After installation, you need to open the application XCode from the Applications folder, so that it can install the needed components.
-  2. You need the gsl ([Gnu Scientific Library](http://www.gnu.org/software/gsl/)) installed. One way is to get the latest version from  [ftp://ftp.gnu.org/gnu/gsl/](ftp://ftp.gnu.org/gnu/gsl/" rel="nofollow). A **better solution** (in my opinion) is to install using [homebrew](http://brew.sh/). From Terminal, type: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-</pre>
-    
-    Then install gsl using:
-    
-    brew install gsl</pre>
+1. Install the free [XCode](https://macappsto.re/gb/Bk9QD.m) from the App Store. After installation, you need to open the application XCode from the Applications folder, so that it can install the needed components.
+2. You need the gsl ([Gnu Scientific Library](http://www.gnu.org/software/gsl/)) installed. One way is to get the latest version from  [ftp://ftp.gnu.org/gnu/gsl/](ftp://ftp.gnu.org/gnu/gsl/" rel="nofollow). A **better solution** (in my opinion) is to install using [homebrew](http://brew.sh/). From Terminal, type:
 
-  3. Now, from R, try install.packages("modeltools")   # a dependency of topicmodels
-install.packages("topicmodels", type="source")  # should compile from source
-</pre>
-    
-    If for some reason the second command fails, then try
-    
-    install.packages("http://cran.r-project.org/src/contrib/topicmodels_0.2-1.tar.gz", repos=NULL, type="source")
-</pre>
+        ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+Then install gsl using:
+
+        brew install gsl
+
+3. Now, from R, try
+
+        install.packages("modeltools")   # a dependency of topicmodels
+        install.packages("topicmodels", type="source")  # should compile from source
+
+  If for some reason the second command fails, then try
+
+        install.packages("http://cran.r-project.org/src/contrib/topicmodels_0.2-1.tar.gz", repos=NULL, type="source")
