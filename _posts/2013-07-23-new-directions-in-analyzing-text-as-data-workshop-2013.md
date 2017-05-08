@@ -10,8 +10,7 @@ categories:
   - Uncategorized
 ---
 
-  **New Directions in Analyzing Text as Data Workshop (2013)
- **
+**New Directions in Analyzing Text as Data Workshop (2013)**
 
 
 
